@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Customized*/
+body {
+    background-color: #1d1c38;
+    font-family: 'Poppins', sans-serif;
+}
+.circle {
+    position: relative;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    background-color: #ea5a87;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.5em;
+}
+.fa-solid {
+    color: #722872;
+    font-size: 10px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-right: 2px;
+}
+.fa-pen-to-square {
+    margin-left: 93%;
+}
+.header {
+    background-color: #111122;
+    color: #ea5a87;
+    font-size: 16px;
+    font-weight:700;
+    padding-top:16px;
+    padding-bottom: 16px;
+    text-align: center;
+
+}
+.content {
+    margin-top: 23px;
+    margin-right: 63px;
+    margin-left: 63px;
+}
+.poll {
+    height: 200px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+.poll>p {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.rating>.circle {
+    color: #000;
+    background-color: #f3f3f3;
+    font-weight: 700;
+    margin-right: 5px;
+}
+.embed-submit-field {
+    position: relative;
+}
+input {
+    height: 36px;
+    width: 100%;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+button {
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    height: 30px;
+    width: 7em;
+    font-size: 10px;
+    background-color: #c4c2c4;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+}
+.summary {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.review {
+    height: 82px;
+    background-color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.review>p {
+    margin-left: 40px;
+    padding-top: 14px;
+}
+.review>.circle{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+.help {
+    color:#fff;
+    font-size: x-large;
+    font-weight: 500;
+    margin-top: 12px;
+    text-align: right;
+}
